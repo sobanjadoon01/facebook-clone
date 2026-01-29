@@ -104,15 +104,14 @@ border-bottom:2px solid rgba(0, 0, 0, 0.100);
 }
 
 .Forgot{
-        width: 80%;
+    width: 80%;
     height: 50px;
     border-radius: 25px;
     padding: 13px;
     color: #000000;
     background-color: #ffffff;
-    margin-bottom: 15px;
     margin-left: 20px;
-    font-size:20px;
+    font-size:19px;
     border: none;
 }
 
@@ -150,5 +149,9 @@ border-bottom:2px solid rgba(0, 0, 0, 0.100);
 
 .bottom-text p{
     line-height: 2.4;
-    word-spacing:9px;   /* 🔥 LANGUAGE KE BEECH SPACE */
+    word-spacing:9px;   
+}
+
+.meta-img{
+    width: 85px;
 }
