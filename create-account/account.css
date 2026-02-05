@@ -6,24 +6,26 @@
 }
 
 body{
-    background-color: rgb(64, 75, 85);
+    background-color: rgb(72, 132, 188);
+    
 }
 .main{
     display: flex;
     flex-direction: column;
     align-items: center;
-
+}
 .top{
     padding-top: 40px;
     padding-left: 7px;
     background-color: rgb(255, 255, 255);
-    width: 38%;
+    width: 39%;
     
 }
 
 .to-login{
     display: flex;
     flex-direction: column;
+    gap: 18px;
 }
 
 .to-login >a{
@@ -39,8 +41,39 @@ body{
 }
 
 .to-login .meta-img{
-    width: 55px;
+    width: 64px;
+    background: rgb(255, 255, 255);
 }
+
+.theory-1{
+    padding-top: 22px;
+    padding-bottom: 10px;
+}
+.theory-1 p{
+    padding-top: 5px;
+}
+
+.name-sec h3{
+    padding-bottom: 5px;
+}
+.input-sec {
+    display: flex;
+    gap: 15px;
+    height: 55px;
+}
+.input-sec input{
+    border-radius: 15px;
+    border: 1px solid #9b9b9b; 
+    padding-left: 10px;
+    width: 280px;
+    outline: none;
+}
+
+
+
+
+
+
 
 
 
