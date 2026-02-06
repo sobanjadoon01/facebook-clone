@@ -7,6 +7,7 @@
 
 body{
     background: #ffffff;
+
 }
 .main{
     display: flex;
@@ -155,3 +156,4 @@ border-bottom:2px solid rgba(0, 0, 0, 0.100);
 .meta-img{
     width: 85px;
 }
+
