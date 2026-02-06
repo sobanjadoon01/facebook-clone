@@ -16,7 +16,7 @@ body{
 
 .left{
 display: flex;
-background-color: rgb(255, 255, 255);
+background-color: rgb(240, 0, 0);
 width: 1018px;
 position: relative;
 border-right:2px solid rgba(0, 0, 0, 0.110);
