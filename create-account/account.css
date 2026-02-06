@@ -246,6 +246,7 @@ body{
     border-radius: 20px;
     padding-left: 10px;
     margin-top: 20px;
+    margin: bottom 20px; 
     font-size: 15px;
     background-color: #ECF6F9;
     color: rgb(0, 0, 0);
@@ -267,7 +268,6 @@ body{
 
 /* ========== bottom-text ==========*/
 .bottom-text{
-    border-top:1px solid #ddd;
     padding:30px 230px;
     font-size:14px;
     color:#8d8b8b;
