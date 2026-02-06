@@ -5,36 +5,182 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="account.css">
+
+    <!-- Font Awesome icons CDN -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
 </head>
 <body>
+    <!-- Main wrapper -->
     <div class="main">
+
+        <!-- Top white card section -->
         <div class="top">
-            <div class="to-login"><a href="/index.html"><i class="fa-solid fa-less-than"></i></a>  
-            <img class="meta-img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Meta_Platforms_Inc._logo.svg/960px-Meta_Platforms_Inc._logo.svg.png" alt="">
-        </div>
-        <!-- main text -->
+
+            <!-- Back button + Meta logo -->
+            <div class="to-login">
+                <a href="/index.html"><i class="fa-solid fa-less-than"></i></a>  
+                <img class="meta-img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Meta_Platforms_Inc._logo.svg/960px-Meta_Platforms_Inc._logo.svg.png" alt="">
+            </div>
+
+            <!-- Main heading text -->
             <div class="theory-1">
                 <h2>Get started on Facebook</h2>
                 <p>Create an account to connect with friends, family and communities of people who share your interests.</p>
             </div>
+
+            <!-- Name section -->
             <div class="name-sec">
                 <h3>Name</h3>
+
+                <!-- First name & surname inputs -->
                 <div class="input-sec">
-                <input type="text" name="name" id="name1" placeholder="First name">
-                <input type="text" name="Surname" id="Surname" placeholder="Surname">
+                    <input type="text" name="name" id="name1" placeholder="First name">
+                    <input type="text" name="Surname" id="Surname" placeholder="Surname">
                 </div>
             </div>
-            <div class="birth-sec"></div>
-            <div class="gender-sec"></div>
-            <div class="num-email-sec"></div>
-            <div class="password"></div>
+
+            <!-- Date of Birth section -->
+            <div class="birth-sec">
+                <h3>Date of birth<span class="info">?</span></h3>
+
+<div class="dob-inputs">
+
+    <!-- Day -->
+    <select class="birth-dropdown">
+        <option value="" disabled selected hidden>Day</option>
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+        <option>4</option>
+        <option>5</option>
+        <option>6</option>
+        <option>7</option>
+        <option>8</option>
+        <option>9</option>
+        <option>10</option>
+        <option>11</option>
+        <option>12</option>
+        <option>13</option>
+        <option>14</option>
+        <option>15</option>
+        <option>16</option>
+        <option>17</option>
+        <option>18</option>
+        <option>19</option>
+        <option>20</option>
+        <option>21</option>
+        <option>22</option>
+        <option>23</option>
+        <option>24</option>
+        <option>25</option>
+        <option>26</option>
+        <option>27</option>
+        <option>28</option>
+        <option>29</option>
+        <option>30</option>
+        <option>31</option>
+    </select>
+
+    <!-- Month -->
+    <select class="birth-dropdown">
+        <option value="" disabled selected hidden>Month</option>
+        <option>January</option>
+        <option>February</option>
+        <option>March</option>
+        <option>April</option>
+        <option>May</option>
+        <option>June</option>
+        <option>July</option>
+        <option>August</option>
+        <option>September</option>
+        <option>October</option>
+        <option>November</option>
+        <option>December</option>
+    </select>
+
+    <!-- Year -->
+    <select class="birth-dropdown">
+        <option value="" disabled selected hidden>Year</option>
+        <option>2025</option>
+        <option>2024</option>
+        <option>2023</option>
+        <option>2022</option>
+        <option>2021</option>
+        <option>2020</option>
+        <option>2019</option>
+        <option>2018</option>
+        <option>2017</option>
+        <option>2016</option>
+        <option>2015</option>
+        <option>2014</option>
+        <option>2013</option>
+        <option>2012</option>
+        <option>2011</option>
+        <option>2010</option>
+        <option>2009</option>
+        <option>2008</option>
+        <option>2007</option>
+        <option>2006</option>
+        <option>2005</option>
+        <option>2004</option>
+        <option>2003</option>
+        <option>2002</option>
+        <option>2001</option>
+        <option>2000</option>
+    
+    </select>
+
+</div>
+
+<!-- Gender -->
+                <div class="gender-sec">
+                        <h3>Gender <span class="info">?</span></h3>
+                        
+                    <!-- Gender dropdown -->
+                    <select class="gender-dropdown">
+                        <option value="" disabled selected hidden>Select your gender</option>
+                        <option>Female</option>
+                        <option>Male</option>
+                        <option>Custom</option>
+                    </select>
+
+                </div>
+            </div>
+
+            <!-- Empty sections (placeholders for future inputs) -->
+            <div class="num-email-sec">
+                <h3>Mobile number or email address<span class="info">?</span></h3>
+                <div class="num-input">
+                    <input type="text" name="connect" id="connect" placeholder="Mobile number or email address">
+                </div>
+            </div>
+            <div class="password">
+                <p>You may receive notifications from us. <a href="https://www.facebook.com/help/297947214257999/?helpref=uf_share">Learn ehy we askfor your contact information</a></p>
+                <h3>Password</h3>
+                <input type="password" name="password" id="password " placeholder="password">
+            </div>
             <div class="theory-2"></div>
             <div class="submit-btn"></div>
             <div class="already-have-acc"></div>
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem modi hic cumque harum quisquam unde eaque iure sint atque possimus cupiditate ab, voluptatum vel sequi minima vero obcaecati numquam. Fugal  Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora mollitia amet eligendi at laudantium asperiores fugiat eum! Delectus dignissimos sequi deleniti cupiditate modi, nobis ut, inventore dolorem voluptatem consequatur fuga excepturi sint tempore, molestiae dolorum! Soluta perferendis excepturi a ducimus qui eligendi, quis nemo, iusto natus porro voluptatibus dignissimos sit impedit ex expedita. Dolorem, quisquam, aliquam suscipit architecto dicta ducimus alias dignissimos incidunt nesciunt consequuntur ab quia hic perferendis officiis veniam quam voluptates doloremque nemo corrupti maxime quasi! Veniam ullam accusamus dicta consequatur asperiores necessitatibus voluptatem debitis quibusdam distinctio hic, repellat aut inventore, enim consequuntur earum, facere vitae ratione quam ea molestias culpa animi vel dolorum! Doloribus repudiandae aperiam voluptatem facere, rerum quaerat soluta, libero omnis, molestias dolore dicta nobis beatae ratione quo totam esse laborum cum reiciendis. Laboriosam amet praesentium totam dolores dicta accusantium illo doloribus mollitia magnam dolore minima eligendi saepe quasi facere ipsum debitis aut, aliquid, obcaecati nihil quidem repudiandae sed fuga nobis sequi. Non delectus architecto quis provident quia quidem vero, modi enim, tenetur harum expedita reiciendis distinctio voluptatem qui fugiat quas aut aperiam. Corrupti ipsam vel sit repellat debitis reprehenderit quam in! Odit cum saepe, dolor quam animi officia fugiat, corporis neque facere atque repellat necessitatibus reiciendis deleniti modi molestiae, itaque qui fugit deserunt placeat! Officiis non molestias qui ipsa nobis, adipisci nostrum harum dolorum? Sequi dolor temporibus maxime nesciunt beatae ratione quia, ducimus, sapiente doloribus aut eligendi consectetur illum nisi at voluptatibus quod, ut harum dolorum dicta voluptas vitae deleniti assumenda quam. Beatae corrupti cupiditate eum corporis nobis laboriosam ut unde magni, blanditiis officiis eligendi modi tenetur excepturi cumque sequi numquam enim omnis aliquid impedit esse distinctio rerum? Nostrum modi neque impedit commodi magnam dolorum enim quaerat, odio officia quae doloribus? Obcaecati ad sit quibusdam. Cum quaerat officia architecto porro quas. Quibusdam praesentium expedita ducimus, aliquam cum dicta ullam fuga reprehenderit asperiores, molestias earum quam repellendus laudantium, accusantium numquam exercitationem aut explicabo facere veritatis eum a adipisci? Ducimus veritatis autem repudiandae dolore voluptates saepe aspernatur provident. Optio deserunt, voluptatibus inventore cum, quis error nostrum reiciendis nisi enim illum laudantium. Nobis ipsa aperiam modi omnis. Atque nostrum ex magnam facere delectus ullam accusamus ea consectetur, esse unde alias quis quidem? Alias quas unde accusantium error deserunt. Sint eveniet sequi inventore iste quaerat vel, laborum beatae accusantium ex! Officiis, laboriosam! Architecto mollitia aperiam dolores porro voluptas reiciendis sapiente doloremque eius adipisci facere aspernatur non nostrum quam corporis nihil, a expedita. Quos rerum neque quas, dolor assumenda et blanditiis facere minus quod, odit iure, fugit reprehenderit. Doloribus ad autem ipsum provident quod harum! Soluta, eos hic. Corporis accusantium libero alias nulla distinctio neque eligendi inventore voluptatum! Pariatur accusamus sed deserunt. Magnam perspiciatis sed harum, ullam consequatur odit hic unde commodi suscipit dolores facilis quaerat officiis? Perferendis, quam nihil! Aliquid, delectus possimus? Mollitia ad sint ab repellat quis cumque vel dignissimos dolor sit est voluptatem facere, veritatis ipsa, expedita, aspernatur magnam placeat fugiat fuga voluptate id ullam perspiciatis nemo? Dolore, similique. Repellat iusto voluptatem maiores quidem mollitia! Alias!</p>
+
+            
+
+            <!-- Long dummy text (for layout testing / scrolling) -->
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem modi hic cumque harum quisquam unde eaque iure sint atque possimus cupiditate ab, voluptatum vel sequi minima vero obcaecati numquam. Fugal ...</p>
         </div>
-        <div class="bottom"><P>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis animi porro, fugit autem vero laboriosam dolor blanditiis adipisci sit commodi officiis dolorum, non cupiditate incidunt sapiente. Ad beatae odit omnis!</P></div>
+
+
+
+
+
+
+
+        <!-- Bottom footer section -->
+        <div class="bottom">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis animi porro, fugit autem vero laboriosam dolor blanditiis adipisci sit commodi officiis dolorum, non cupiditate incidunt sapiente. Ad beatae odit omnis!</p>
+        </div>
+
     </div>
 </body>
 </html>
