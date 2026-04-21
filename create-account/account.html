@@ -17,7 +17,6 @@
         <!-- Top white card section -->
         <form id="signupForm" class="top">
 
-
             <!-- Back button + Meta logo -->
             <div class="to-login">
                 <a href="/index.html"><i class="fa-solid fa-less-than"></i></a>  
@@ -34,7 +33,6 @@
             <div class="name-sec">
                 <h3>Name</h3>
 
-                <!-- First name & surname inputs -->
                 <div class="input-sec">
                     <input type="text" name="name" id="name1" placeholder="First name">
                     <input type="text" name="Surname" id="Surname" placeholder="Surname">
@@ -48,7 +46,7 @@
 <div class="dob-inputs">
 
     <!-- Day -->
-    <select class="birth-dropdown">
+    <select id="day" class="birth-dropdown">
         <option value="" disabled selected hidden>Day</option>
         <option>1</option>
         <option>2</option>
@@ -84,7 +82,7 @@
     </select>
 
     <!-- Month -->
-    <select class="birth-dropdown">
+    <select id="month" class="birth-dropdown">
         <option value="" disabled selected hidden>Month</option>
         <option>January</option>
         <option>February</option>
@@ -101,7 +99,7 @@
     </select>
 
     <!-- Year -->
-    <select class="birth-dropdown">
+    <select id="year" class="birth-dropdown">
         <option value="" disabled selected hidden>Year</option>
         <option>2025</option>
         <option>2024</option>
@@ -138,8 +136,7 @@
                 <div class="gender-sec">
                         <h3>Gender <span class="info">?</span></h3>
                         
-                    <!-- Gender dropdown -->
-                    <select class="gender-dropdown">
+                    <select id="gender" class="gender-dropdown">
                         <option value="" disabled selected hidden>Select your gender</option>
                         <option>Female</option>
                         <option>Male</option>
@@ -149,30 +146,34 @@
                 </div>
             </div>
 
-            <!-- Empty sections (placeholders for future inputs) -->
             <div class="num-email-sec">
                 <h3>Mobile number or email address<span class="info">?</span></h3>
                 <div class="num-input">
                     <input type="text" name="connect" id="connect" placeholder="Mobile number or email address">
                 </div>
             </div>
+
             <div class="password">
                 <p>You may receive notifications from us. <a href="https://www.facebook.com/help/297947214257999/?helpref=uf_share">Learn ehy we askfor your contact information</a></p>
                 <h3>Password</h3>
                 <input type="password" name="password" id="password" placeholder="password">
             </div>
+
             <div class="theory-2">
                 <p>People who use our service may have uploaded your contact information to Facebook <a href="https://www.facebook.com/help/637205020878504">Learn more</a>.</p>
                 <p>By tapping Submit, you agree to create an account and to Facebook's <a href="https://www.facebook.com/terms.php">Terms,</a> <a href="https://www.facebook.com/policy.php">  Privacy Policy</a>   and .</p>
                 <p>The <a href="https://www.facebook.com/policy.php">Privacy Policy</a>  describes the ways we can use the information we collect when you create an account. For example, we use this information to provide, personalise and improve our products, including ads.</p>
             </div>
+
             <div class="submit-btn">
-                <button type="submit">Submit</button>
+                <button id="submit" type="submit">Submit</button>
             </div>
+
             <div class="already-have-acc">
                 <a href="/index.html"><button type="button" >I already have an account</button></a>
             </div>
         </form>
+
     <div class="bottom-text">
         <p>Bengali English (UK)
 اردو
@@ -210,6 +211,8 @@ Help
 Contact uploading and non-users<br>
 Meta © 2026</p>
  </div>
-  <script src="script.js"></script>
+
+<script src="account..js"></script>
+
 </body>
 </html>
